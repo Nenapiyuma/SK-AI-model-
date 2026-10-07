@@ -1,0 +1,8 @@
+# Core Optional Accelerators (SK AI includes a zero-dependency local tensor & media fallback engine)
+torch>=2.1.0; extra == "torch"
+numpy>=1.24.0; extra == "torch"
+safetensors>=0.4.0; extra == "torch"
+Pillow>=10.0.0; extra == "full"
+scipy>=1.11.0; extra == "full"
+psutil>=5.9.0; extra == "full"
+pytest>=7.4.0; extra == "test"
